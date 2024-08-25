@@ -11,6 +11,13 @@ public class Fibo {
     }
 
     static int sequence(int n) {
+        /**
+        *Generates terms of the Fibonacci sequence, essentially
+        *the previous two terms together until it reaches the number of the 
+        *term provided by the parameter.  Any parameter below 3 will output as 1
+        *@param n the term of the sequence being searched for
+        *@return the number at the nth term
+        */
         int x = 1;
         int y = 1;
         int z = 1;
